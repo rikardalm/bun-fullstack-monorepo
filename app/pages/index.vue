@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { Button as UiButton } from '@/components/ui/button'
+import { Button as UiButton } from "@/components/ui/button";
 </script>
 
 <template>
-  <section class="p-6 space-y-4">
+  <section class="space-y-4 p-6">
     <h1 class="text-2xl font-semibold">Welcome</h1>
     <div class="flex flex-wrap gap-3">
       <UiButton>Default</UiButton>
