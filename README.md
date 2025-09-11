@@ -90,6 +90,14 @@ bun run postinstall
 - Tailwind is configured through PostCSS in `nuxt.config.ts` using `@tailwindcss/postcss`.
 - Base CSS variables and Tailwind v4 theme tokens are defined in `app/assets/css/tailwind.css`.
 
+### If styles don’t load
+
+- Ensure the dev dependency `@tailwindcss/postcss` is installed (run `bun add -D @tailwindcss/postcss`).
+- PostCSS plugins are specified by name in `nuxt.config.ts`:
+  `postcss: { plugins: { '@tailwindcss/postcss': {}, autoprefixer: {} } }`.
+- The CSS entry must be `css: ['~/assets/css/tailwind.css']` and that file should contain `@import "tailwindcss";`.
+- Restart the dev server after changing PostCSS/Tailwind configuration.
+
 ## shadcn-vue
 
 - Components are installed into `app/components/ui` and imported via the barrel file, for example:
