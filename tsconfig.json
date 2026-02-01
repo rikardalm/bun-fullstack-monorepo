@@ -5,7 +5,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./app/*"]
-    }
+    },
+    "strictNullChecks": true
   },
   "references": [
     { "path": "./.nuxt/tsconfig.app.json" },
