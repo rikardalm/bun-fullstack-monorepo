@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-01T22:03:43.867Z",
+  "scope": "project",
+  "operation": "change-to-agents",
+  "entries": [
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.agents/commands",
+      "kind": "dir",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.claude/commands",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.codex/prompts",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.opencode/commands",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.cursor/commands",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.agents/hooks",
+      "kind": "dir",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.claude/hooks",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.agents/skills",
+      "kind": "dir",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.claude/skills",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.codex/skills",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.opencode/skills",
+      "kind": "symlink",
+      "action": "create"
+    },
+    {
+      "originalPath": "/Users/rikard/git/github/nuxt4-shadcn-starter/.cursor/skills",
+      "kind": "symlink",
+      "action": "create"
+    }
+  ]
+}
